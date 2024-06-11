@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    border: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+
+  
+  h1 {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #515070;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  button {
+    width: 165px;
+    height: 60px;
+    border-radius: 3px;
+    background: #06173a;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  button img {
+    margin-left: 26px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto 1346px auto;
+  }
+  
+  .content {
+    padding: 0 73px;
+    grid-column: 2;
+  }
+
+  .primeira_sessao{
+    display: flex;
+    flex-direction: column;
+    background: url('../../img/img_grande_1.jpg') no-repeat;
+    
+    background-size:cover;
+    
+    height: 628px;
+    align-self: center;
+    justify-content: center;
+  }
+
+  
+
+  
+  .primeira_sessao h1 {
+    margin-bottom: 19px;
+  }
+  
+  .primeira_sessao p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    margin-bottom: 14px;
+  }
+
+  .segunda_sessao {
+    display: flex;
+    height: 688px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .segunda_sessao .content{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .segunda_sessao h1 {
+    color: #06173a;
+    margin-bottom: 39px;
+  }
+  
+  .segunda_sessao h2 {
+    margin: 0 0 7px;
+  }
+  
+  .segunda_sessao p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color: #898989;
+    margin: 0 0 25px;
+    line-height: 29px;
+  }
+  
+  .segunda_sessao_conteudo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+  }
+  
+  .segunda_sessao_conteudo button {
+    background-color: #06173a;
+    cursor: pointer;
+  }
+  
+  .segunda_sessao img {
+    max-width: 100%;
+    width: auto;
+  }
+
+  .terceira_sessao{
+    display: flex;
+    flex-direction: column;
+    background: url('../../img/img_grande_2.png') no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 628px;
+    justify-content: center;
+  }
+
+  .terceira_sessao h1{
+    margin-bottom: 39px;
+    color: #06173a;
+  }
+
+  .terceira_sessao h2{
+    margin: 0 0 7px;
+    color: #06173a;
+  }
+
+  .terceira_sessao p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color: #06173a;
+    margin: 0 0 25px;
+    line-height: 29px;
+  }

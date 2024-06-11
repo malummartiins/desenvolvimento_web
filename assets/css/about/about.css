@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #06173a;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #06173a;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+  }
+  
+  p {
+    font-family: 'Open Sans', sans-serif;
+    color: #898989;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto 1346px auto;
+  }
+  
+  .content {
+    padding: 0 73px;
+    grid-column: 2;
+  }
+
+  .primeira_sessao_about{
+    background: url('../../img/img_grande_2.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 456px;
+}
+
+.primeira_sessao_about h1{
+    color: #06173a;
+}
+
+.primeira_sessao_about h2{
+    color: #06173a;
+    margin-top: 19px;
+}
+  
+
+.terceira_sessao_about{
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    width: 100%;
+  }
+
+  .terceira_sessao_about .content{
+    display: flex;
+    gap: 96px;
+  }
+
+  .descricao_about .tema_about{
+    display: flex;
+    gap: 26px;
+    margin-bottom: 15px;
+  }

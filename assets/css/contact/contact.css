@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 19px;
+  }
+  
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+  }
+  
+  h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    size: 20px;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    margin-top: 23px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #a9a9a9;
+  }
+  
+  select {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #a9a9a9;
+  }
+  
+  button {
+    width: 165px;
+    height: 60px;
+    border-radius: 3px;
+    background: #06173a;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  textarea:focus,
+  input:focus,
+  select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto 1346px auto;
+  }
+  
+  .content {
+    padding: 0 73px;
+    grid-column: 2;
+  }
+
+  
+  .primeira_sessao_contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 456px;
+    background: url('../../img/imagemcontato.png') no-repeat;
+    background-size: cover;
+  }
+  
+  .formulario {
+    height: 555px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formulario .content {
+    display: flex;
+    gap: 38px;
+  }
+  
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  form .inputs {
+    display: flex;
+    gap: 40px;
+  }
+  
+  form .apresentacao {
+    display: flex;
+    justify-content: space-between;
+    margin: 36px 0 39px;
+  }
+  
+  form textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  }
+  
+  .apresentacao h3 {
+    color: #06173a;
+  }
+  
+  .inputs label {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #898989;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+  }
+  
+  .radio_inputs {
+    margin-top: 32px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .radio_inputs label {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #898989;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-bottom: 1px solid #d7d7d7;
+    width: 48%;
+  }
+  
+  .radio_inputs select {
+    margin-bottom: 15.25px;
+  }
+  
+  .radio_inputs .assunto {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d7d7d7;
+    align-items: flex-start;
+    flex: 1;
+  }
+  
+  .assunto h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #898989;
+  }
+  
+  .assunto .assunto_input {
+    display: flex;
+    gap: 19px;
+  }
+  
+  .assunto_input label {
+    color: #a9a9a9;
+    flex-direction: row;
+    align-items: baseline;
+    border: 0;
+    gap: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .mensagem {
+    margin: 34px 0 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #898989;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  
+  .mensagem textarea {
+    margin-top: 23px;
+    color: #a9a9a9;
+  }
+  
+  .formulario .informacoes {
+    padding: 0 142px 0 49px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(105.92deg, #0c0b3c -8.44%, #222147 94.86%);
+  }
+  
+  .formulario .informacoes h3 {
+    margin: 39px 0 125px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    size: 20px;
+    
+  }
+  
+  .informacoes .informacao {
+    margin-bottom: 66px;
+    display: flex;
+    gap: 21px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    
+  }
+
+  .localizacao_teste{
+    object-fit: contain;
+  }
+  
+  .inputs .termos {
+    flex-direction: row;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: baseline;
+    gap: 10px;
+  }
+  
+  .termos h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
